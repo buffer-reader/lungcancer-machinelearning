@@ -4,7 +4,7 @@ set -euo pipefail
 # 1. Create & activate virtual environment
 python -m venv env
 # shellcheck disable=SC1091
-source env/bin/activate  # Windows: source env/Scripts/activate
+source env/Scripts/activate  # Windows: source env/Scripts/activate
 
 # 2. Install pip-tools
 pip install pip-tools
