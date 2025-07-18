@@ -1,0 +1,8 @@
+numpy
+scipy
+scikit-image
+matplotlib
+pydicom
+sqlalchemy
+pytest
+flake8
