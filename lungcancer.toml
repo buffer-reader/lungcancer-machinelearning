@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lungcancer-ml"
+version = "0.1.0"
+description = "Machine learning analysis for lung cancer detection and classification"
+readme = "README.md"
+authors = [ { name = "AkashNag", email = "nagakash2000@gmail.com" } ]
+requires-python = ">=3.8"
+dependencies = [
+  "numpy",
+  "scipy",
+  "scikit-image",
+  "matplotlib",
+  "pydicom",
+  "sqlalchemy",
+  "pandas",
+  "scikit-learn",
+  "tensorflow"
+]
+
+[project.optional-dependencies]
+test = ["pytest", "flake8"]
